@@ -1,0 +1,39 @@
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Database
+*.db
+crm/database/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# React frontend (agar kerak bo'lsa)
+crm/react-frontend/node_modules/
+crm/react-frontend/build/
